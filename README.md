@@ -137,18 +137,7 @@
         <img src="photo.jpg" alt="Cianney">
         <p>C-SERVICE est dédié à offrir des solutions de qualité pour aider nos clients à réussir dans leurs projets professionnels. Notre équipe est composée de professionnels expérimentés dans divers domaines.</p>
     </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2>Contactez-nous</h2>
-        <form>
-           <section class="contact" id="contact">
-    <h2>Contactez-nous</h2>
-    <form>
-        <input type="text" placeholder="Votre nom" required>
-        <input type="email" placeholder="Votre email" required>
-        <textarea placeholder="Votre message" required></textarea>
-        <button type="submit" class="btn">Envoyer</button>
+    
     </form>
    <section class="contact" id="contact">
     <h2>Contactez-nous</h2>
