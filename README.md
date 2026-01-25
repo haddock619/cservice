@@ -155,7 +155,6 @@
         </form>
        <p class="contact-info">📍 Route Kansimba | 📞 +243 850406200 | ✉ cianney029@gmail.com</p>
     </section>
-
     <!-- Footer -->
     <footer>
         © 2026 Cianney SERVICE. Tous droits réservés.
