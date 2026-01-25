@@ -142,7 +142,17 @@
     <section class="contact" id="contact">
         <h2>Contactez-nous</h2>
         <form>
-            <div class="social-buttons">
+           <section class="contact" id="contact">
+    <h2>Contactez-nous</h2>
+    <form>
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message" required></textarea>
+        <button type="submit" class="btn">Envoyer</button>
+    </form>
+    <p class="contact-info">📍 Route Kansimba | 📞 +243 850406200 | ✉ cianney029@gmail.com</p>
+</section>
+ <div class="social-buttons">
     <a href="https://www.instagram.com/cianney_officiel" target="_blank" class="social-btn instagram">Instagram</a>
     <a href="https://www.tiktok.com/@cianney_officiel" target="_blank" class="social-btn tiktok">TikTok</a>
     <a href="https://wa.me/243850406200?text=Bonjour%20je%20viens%20du%20site%20Cianney%20Service" target="_blank" class="social-btn whatsapp">WhatsApp</a>
