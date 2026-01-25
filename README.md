@@ -154,7 +154,7 @@
             <button type="submit" class="btn">Envoyer</button>
         </form>
        <p class="contact-info">📍 Route Kansimba | 📞 +243 850406200 | ✉ cianney029@gmail.com</p>
- <p class="contact-info">📍 Route Kansimba | 📞 +243 848681325 | ✉ cianney029@gmail.com</p>
+ <p class="contact-info">📍 Route Kansimba | 📞 +243 850406200 | ✉ cianney029@gmail.com</p>
     </section>
 
     <!-- Footer -->
