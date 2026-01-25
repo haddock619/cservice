@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+ <meta name="google-site-verification" content="y-J4skNwhLxwWnVo4ANV3_mxBMIEHdFqR8ZboUeY65k" /> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cianney SERVICE - Site Officiel</title>
