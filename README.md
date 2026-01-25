@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C-SERVICE - Site Officiel</title>
+    <title>Cianney SERVICE - Site Officiel</title>
     <style>
         /* Reset et styles globaux */
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
@@ -13,17 +13,17 @@
         .container { width: 90%; max-width: 1200px; margin: auto; }
 
         /* Header */
-        header { background: #0055FF; color: #fff; padding: 20px 0; }
-        header h1 { display: inline-block; margin-left: 20px; }
-        header nav ul { list-style: none; float: right; margin-right: 20px; }
-        header nav ul li { display: inline-block; margin-left: 20px; }
-        header nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+        header { background: #0055FF; color: #fff; padding: 20px 0; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+        header h1 { display: flex; align-items: center; font-size: 1.8rem; }
+        header h1 img { width: 50px; height: 50px; border-radius: 50%; margin-right: 10px; }
+        nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 20px; }
+        nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
 
         /* Hero */
         .hero { background: #E0E7FF; text-align: center; padding: 100px 20px; }
         .hero h2 { font-size: 2.5rem; margin-bottom: 20px; }
         .hero p { font-size: 1.2rem; margin-bottom: 30px; }
-        .btn { background: #0055FF; color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .btn { background: #0055FF; color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 5px; transition: 0.3s; display: inline-block; margin: 5px; }
         .btn:hover { background: #003BB5; }
 
         /* Services */
@@ -35,6 +35,7 @@
 
         /* About */
         .about { padding: 80px 20px; text-align: center; }
+        .about img { width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px; }
 
         /* Contact */
         .contact { padding: 80px 20px; background: #E0E7FF; text-align: center; }
@@ -44,13 +45,26 @@
 
         /* Footer */
         footer { background: #0055FF; color: #fff; text-align: center; padding: 20px 0; }
+
+        /* Responsive */
+        @media(max-width:768px){
+            header { flex-direction: column; align-items: flex-start; }
+            nav ul { flex-direction: column; gap: 10px; margin-top: 10px; }
+            .hero { padding: 60px 20px; }
+            .services { padding: 60px 20px; }
+            .about { padding: 60px 20px; }
+            .contact { padding: 60px 20px; }
+        }
     </style>
 </head>
 <body>
 
     <!-- Header -->
     <header class="container">
-        <h1>C-SERVICE</h1>
+        <h1>
+            <img src="photo.jpg" alt="Cianney">
+            Cianney SERVICE
+        </h1>
         <nav>
             <ul>
                 <li><a href="#hero">Accueil</a></li>
@@ -65,7 +79,13 @@
     <section class="hero" id="hero">
         <h2>Des solutions professionnelles pour votre réussite</h2>
         <p>Nous vous accompagnons dans le développement et l’optimisation de vos services.</p>
-        <a href="#contact" class="btn">Contactez-nous</a>
+        <!-- Boutons vers tes plateformes -->
+        <div>
+            <a href="https://www.instagram.com/cianney_officiel" target="_blank" class="btn">Instagram</a>
+            <a href="https://www.tiktok.com/@cianney_officiel" target="_blank" class="btn">TikTok</a>
+            <a href="https://wa.me/243848681325" target="_blank" class="btn">WhatsApp</a>
+            <a href="mailto:cianney029@gmail.com" class="btn">Email</a>
+        </div>
     </section>
 
     <!-- Services -->
@@ -90,6 +110,7 @@
     <!-- About -->
     <section class="about container" id="about">
         <h2>À propos de nous</h2>
+        <img src="photo.jpg" alt="Cianney">
         <p>C-SERVICE est dédié à offrir des solutions de qualité pour aider nos clients à réussir dans leurs projets professionnels. Notre équipe est composée de professionnels expérimentés dans divers domaines.</p>
     </section>
 
@@ -107,9 +128,10 @@
 
     <!-- Footer -->
     <footer>
-        © 2026 C-SERVICE. Tous droits réservés.
+        © 2026 Cianney SERVICE. Tous droits réservés.
     </footer>
 
 </body>
 </html>
+
 
