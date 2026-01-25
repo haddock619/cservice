@@ -5,7 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cianney SERVICE - Site Officiel</title>
     <style>
-        /* Reset et styles globaux */
+       .social-buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    transform: scale(1.08);
+}
+
+.instagram { background: linear-gradient(45deg, #E1306C, #F77737); }
+.tiktok { background: #000000; }
+.whatsapp { background: #25D366; }
+.email { background: #0055FF; }
+ /* Reset et styles globaux */
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
         body { line-height: 1.6; color: #333; }
 
@@ -118,7 +142,13 @@
     <section class="contact" id="contact">
         <h2>Contactez-nous</h2>
         <form>
-            <input type="text" placeholder="Votre nom" required>
+            <div class="social-buttons">
+    <a href="https://www.instagram.com/cianney_officiel" target="_blank" class="social-btn instagram">Instagram</a>
+    <a href="https://www.tiktok.com/@cianney_officiel" target="_blank" class="social-btn tiktok">TikTok</a>
+    <a href="https://wa.me/243850406200?text=Bonjour%20je%20viens%20du%20site%20Cianney%20Service" target="_blank" class="social-btn whatsapp">WhatsApp</a>
+    <a href="mailto:cianney029@gmail.com" class="social-btn email">Email</a>
+</div>
+<input type="text" placeholder="Votre nom" required>
             <input type="email" placeholder="Votre email" required>
             <textarea placeholder="Votre message" required></textarea>
             <button type="submit" class="btn">Envoyer</button>
